@@ -130,7 +130,7 @@ export default function Action() {
         {/* Hover overlay with button */}
         <div className="absolute inset-0 z-30 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
           <div className="flex items-center mt-6">
-            <Button className="bg-white text-gray-800 rounded-2xl px-8 py-4 pr-12 border border-gray-300 hover:bg-gray-300/90 transition-opacity duration-300">
+            <Button className="bg-white cursor-pointer text-gray-800 rounded-2xl px-8 py-4 pr-12 border border-gray-300 hover:bg-gray-300/90 transition-opacity duration-300">
               Rent Now
             </Button>
             <img src="/arrow-btn.svg" alt="Arrow" className="w-5 h-5 ml-[-2rem] mt-1" />

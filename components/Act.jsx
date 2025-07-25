@@ -23,7 +23,7 @@ function Act() {
         </h1>
         <Button
           onClick={handleClick}
-          className="px-8 py-6 bg-[#76945e] text-white rounded-2xl  text-lg font-semibold shadow hover:bg-[#87A96B] transition flex items-center gap-2"
+          className="px-8 py-6 bg-[#76945e] cursor-pointer text-white rounded-2xl  text-lg font-semibold shadow hover:bg-[#87A96B] transition flex items-center gap-2"
           disabled={loading}
         >
           {loading ? (
@@ -47,7 +47,7 @@ function Act() {
           <br />
           <br />
           <span
-            className="relative inline-block mt-4 after:content-[''] after:block after:w-full after:h-0.5 after:bg-[#87A96B] after:animate-beat-underline after:mt-2 hover:opacity-80 transition duration-300 cursor-pointer"
+            className="relative inline-block mt-4 after:content-[''] after:block after:w-full after:h-0.5 after:bg-[#87A96B] after:animate-beat-underline after:mt-2 hover:opacity-80 transition duration-300 "
           >
             Time to get excited
           </span>

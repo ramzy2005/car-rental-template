@@ -116,7 +116,7 @@ export default function Exprole() {
 				)}
 				<Button
           onClick={handleExploreClick}
-          className="w-auto mt-16 py-5 px-40 flex items-center gap-2"
+          className="w-auto mt-16 py-5 px-40 flex items-center gap-2 cursor-pointer"
           disabled={loading}
           variant="link"
         >

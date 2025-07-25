@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="flex items-center mt-6">
             <Button
-              className="bg-white text-gray-800 rounded-2xl px-8 py-4 pr-12 border border-gray-300 hover:bg-accent flex items-center gap-2"
+              className="bg-white cursor-pointer text-gray-800 rounded-2xl px-8 py-4 pr-12 border border-gray-300 hover:bg-accent flex items-center gap-2"
               onClick={handleRentNow}
               disabled={rentLoading}
             >

@@ -21,7 +21,7 @@ export default function Navbar() {
               <img
                 src="/left.svg"
                 alt="Back to Home"
-                className="size-10 cursor-pointer opacity-70 hover:opacity-90 transition duration-200 ease-in-out"
+                className="size-10 cursor-pointer opacity-60 hover:opacity-90 transition duration-200 ease-in-out"
               />
             </Link>
           )}

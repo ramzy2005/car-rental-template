@@ -67,7 +67,7 @@ const total = cleanPrice * Number(quantity);
       <div className="mt-3 flex flex-col gap-2 px-2">
         <Dialog>
           <DialogTrigger asChild>
-            <Button variant="outline" className="border-2 w-full hover:bg-gray-100 transition">
+            <Button variant="outline" className="border-2 w-full cursor-pointer hover:bg-gray-100 transition">
               Check details
             </Button>
           </DialogTrigger>
@@ -105,11 +105,11 @@ const total = cleanPrice * Number(quantity);
 
               {/* Buttons side-by-side */}
               <div className="flex gap-4 mt-6">
-                <Button className="flex-1" variant="default">
+                <Button className="flex-1 cursor-pointer" variant="default">
                   Rent Now
                 </Button>
-                <Button className="flex-1 flex items-center justify-center gap-2" variant="outline">
-                  <img src="/cart.svg" alt="Cart" className="w-5 h-5" />
+                <Button className="flex-1 flex items-center justify-center gap-2 cursor-pointer" variant="outline">
+                  <img src="/cart.svg" alt="Cart" className="w-5 h-5 " />
                   Go to Cart
                 </Button>
               </div>
