@@ -1,5 +1,5 @@
 "use client";
-import Carcard from "@/components/Carcard";
+import Carcard from "../../components/Carcard";
 import {
 	Pagination,
 	PaginationContent,
